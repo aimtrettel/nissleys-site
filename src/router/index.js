@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HelloWorld from '../components/HelloWorld.vue'
-import BlogHome from '../components/BlogHome.vue'
-import GamesHome from '../components/GamesHome.vue'
+import PortfolioMain from '../components/PortfolioMain.vue'
+import BlogMain from '../components/BlogMain.vue'
+import ShopMain from '../components/ShopMain.vue'
 import HangmanMain from '../components/hangman/HangmanMain.vue'
 import HangmanGame from '../components/hangman/HangmanGame.vue'
 
@@ -15,14 +16,19 @@ const routes = [
     component: HelloWorld
   },
   {
-    path: '/blog',
-    name: 'blog',
-    component: BlogHome
+    path: '/portfolio',
+    name: 'portfolio',
+    component: PortfolioMain
   },
   {
-    path: '/games',
-    name: 'games',
-    component: GamesHome
+    path: '/blog',
+    name: 'blog',
+    component: BlogMain
+  },
+  {
+    path: '/shop',
+    name: 'shop',
+    component: ShopMain
   },
   {
     path: '/hangman/main',

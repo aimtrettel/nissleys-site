@@ -27,11 +27,15 @@
         </v-btn>
 
         <v-btn text>
+          <router-link to="/portfolio" style="color: var(--bg-color);">Portfolio</router-link>
+        </v-btn>
+
+        <v-btn text>
           <router-link to="/blog" style="color: var(--bg-color);">Blog</router-link>
         </v-btn>
 
         <v-btn text>
-          <router-link to="/hangman/main" style="color: var(--bg-color);">Hangman</router-link>
+          <router-link to="/shop" style="color: var(--bg-color);">Shop</router-link>
         </v-btn>
       </div>
     </v-app-bar>
@@ -44,42 +48,42 @@
       <strong>Get connected with me on social media!</strong>
       <v-spacer></v-spacer>
       <v-row justify="center">
-      <v-col cols="auto">
-        <v-btn
-        class="mx-2"
-        fab
-        dark
-        small
-        href="https://www.facebook.com/aimee.trettel"
-        >
-          <v-icon dark>mdi-facebook</v-icon>
-        </v-btn>
-      </v-col>
+        <v-col cols="auto">
+          <v-btn
+          class="mx-2"
+          fab
+          dark
+          small
+          href="https://www.linkedin.com/in/aimee-nissley-800826186/"
+          >
+            <v-icon dark>mdi-linkedin</v-icon>
+          </v-btn>
+        </v-col>
 
-      <v-col cols="auto">
-        <v-btn
-        class="mx-2"
-        fab
-        dark
-        small
-        href="https://www.linkedin.com/in/aimee-nissley-800826186/"
-        >
-          <v-icon dark>mdi-linkedin</v-icon>
-        </v-btn>
-      </v-col>
+        <v-col cols="auto">
+          <v-btn
+          class="mx-2"
+          fab
+          dark
+          small
+          href="https://www.facebook.com/aimee.trettel"
+          >
+            <v-icon dark>mdi-facebook</v-icon>
+          </v-btn>
+        </v-col>
 
-      <v-col cols="auto">
-        <v-btn
-        class="mx-2"
-        fab
-        dark
-        small
-        href="https://www.instagram.com/itsa_aimee/"
-        >
-          <v-icon dark>mdi-instagram</v-icon>
-        </v-btn>
-      </v-col>
-    </v-row>
+        <v-col cols="auto">
+          <v-btn
+          class="mx-2"
+          fab
+          dark
+          small
+          href="https://www.instagram.com/itsa_aimee/"
+          >
+            <v-icon dark>mdi-instagram</v-icon>
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-footer>
   </v-app>
 </template>
