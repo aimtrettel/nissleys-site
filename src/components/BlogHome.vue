@@ -3,7 +3,7 @@
     <v-row class="text-center" background="#e6dcc0">
       <v-col cols="12">
         <v-img
-          :src="require('../assets/NissleysLogoPearl.png')"
+          :src="require('../assets/NissleysLogoSmall.png')"
           class="my-3"
           contain
           height="200"

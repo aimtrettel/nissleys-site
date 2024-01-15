@@ -31,7 +31,7 @@
         </v-btn>
 
         <v-btn text>
-          <router-link to="/games" style="color: var(--bg-color);">Games</router-link>
+          <router-link to="/hangman/main" style="color: var(--bg-color);">Hangman</router-link>
         </v-btn>
       </div>
     </v-app-bar>
